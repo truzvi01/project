@@ -1,0 +1,341 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.error{
+    color: #990000;
+    font-size: 13px;
+    line-height: 10px;
+    padding: 50px;
+
+}
+/***********************************HOME PAGE**********************************/
+.navbar{
+    border: none;
+    background-color: #800000;
+}
+/**Commonlinks**/
+#commonlinks a{
+    background-color: #404040;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+}
+#commonlinks a:hover,
+a:focus,
+a:active{
+    background-color: #0d0d0d;
+    border-radius: 50px;
+    transition: all 0.45s;
+}
+/*****************************************************************/
+/**Home-Page-Heading**/
+h1.nhs-header{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+}
+@media all and (max-width : 875px){
+    h1.nhs-header{
+        font-size: 30px;
+        padding-left: 30px;
+    }
+}
+@media all and (max-width : 663px){
+    h1.nhs-header{
+        font-size: 20px;
+    }
+}
+@media all and (max-width : 450px){
+    h1.nhs-header{
+        font-size: 15px;
+    }
+}
+@media all and (max-width : 344px){
+    h1.nhs-header{
+        font-size: 13px;
+    }
+}
+@media all and (max-width : 277px){
+    h1.nhs-header{
+        font-size: 10px;
+    }
+}
+/***********************************LOGIN PAGE**********************************/
+/**Login header**/
+.header-two h2{
+    color: #800000;
+    font-size: 40px;
+    margin-top: 150px;
+    text-align: center;
+    text-shadow: 15px 10px 10px #c0c0c0;
+}
+/*****************************************************************/
+@media all and (max-width : 1100px){
+    .header-two h2{
+        font-size: 30px;
+    }
+}
+@media all and (max-width : 800px){
+    .header-two h2{
+        font-size: 25px;
+    }
+}
+@media all and (max-width : 500px){
+    .header-two h2{
+        font-size: 20px;
+    }
+}
+@media all and (max-width : 400px){
+    .header-two h2{
+        font-size: 16px;
+    }
+}
+/*****************************************************************/
+#login-wrapper{
+    background-color: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    border-radius: 40px;
+    box-shadow: 20px 20px 15px #c0c0c0;
+    height: auto;
+    margin: 100px auto 50px auto;
+    width: 80%;
+}
+
+@media all and (max-width : 900px){
+    #login-wrapper{
+        border-radius: 0;
+        box-shadow: 10px 10px 5px #c0c0c0;
+        width: 100%;
+    }
+}
+#login-wrapper h3{
+    background: #800000;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+@media all and (max-width : 470px){
+    #login-wrapper h3{
+        font-size: 20px;
+    }
+}
+@media all and (max-width : 402px){
+    #login-wrapper h3{
+        font-size: 15px;
+    }
+}
+
+/*****************************************************************/
+/**Login wrapper**/
+#login{
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 0px 0px 40px 40px;
+    display: block;
+    height: auto;
+    margin: 150px auto 50px auto;
+    width: 50%;
+}
+@media all and (max-width : 900px){
+    #login{
+        width: 100%
+    }
+}
+/*****************************************************************/
+#login img{
+    border-radius: 60%;
+    box-shadow: 5px 5px 1px #c0c0c0;
+    display: block;
+    margin: -80px auto auto auto;
+    max-width: 30%;
+}
+/*****************************************************************/
+#login p{
+    text-align: center;
+    padding: 20px;
+}
+#login-form label{
+    font-size: 12px;
+    padding: 0;
+    margin: -15px 0 0px 0;
+}
+/**Login form**/
+#login-form{
+    padding: 5px 20px 30px 20px;
+}
+#login-form input[type = text],
+input[type = password]{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+}
+#login-form input[type = submit]{
+    background-color: #800000;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 30px 0px;
+    padding: 14px 20px;
+    width: 100%;
+}
+#login-form input[type = submit]:hover{
+    background-color: #5c5c3d;
+}
+span.psw,
+.username{
+    float: right;
+    padding: 20px;
+}
+/***********************************GP PANEL**********************************/
+
+.col-sm-8{
+    border-radius: 5px;
+    height: auto;
+    margin: 0;
+}
+.col-sm-8 h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.col-sm-8 p{
+    margin-top: 0;
+    padding: 30px 10px 0 10px;
+    text-align: justify;
+}
+@media all and (max-width : 489px){
+    .col-sm-8 p{
+        font-size: 10px;
+    }
+}
+@media all and (max-width : 375px){
+    .col-sm-8 p{
+        font-size: 8px;
+    }
+}
+@media all and (max-width : 256px){
+    .col-sm-8 p{
+        font-size: 7px;
+    }
+}
+@media all and (max-width : 220px){
+    .col-sm-8 p{
+        font-size: 4px;
+    }
+}
+a{
+    color: #800000;
+    background: #e6e6e6;
+}
+#image img{
+    display: block;
+    margin: 150px auto auto auto;
+}
+#header h1{
+    color: #800000;
+    font-size: 40px;
+    margin: 150px 0 100px 0;
+    text-align: center;
+}
+@media all and (max-width : 589px){
+    #header h1{
+        font-size: 25px;
+    }
+}
+@media all and (max-width : 370px){
+    #header h1{
+        font-size: 20px;
+    }
+}
+@media all and (max-width : 294px){
+    #header h1{
+        font-size: 15px;
+    }
+}
+#gp_header h1{
+    color: #800000;
+    font-size: 40px;
+    margin: 50px 0 100px 0;
+    text-align: center;
+}
+@media all and (max-width : 589px){
+    #gp_header h1{
+        font-size: 25px;
+
+    }
+}
+@media all and (max-width : 370px){
+    #gp_header h1{
+        font-size: 20px;
+
+    }
+}
+@media all and (max-width : 294px){
+    #gp_header h1{
+        font-size: 15px;
+
+    }
+}
+#gp_header h2{
+    font-size: 30px;
+    margin: 20px 0 0px 0;
+    text-align: center;
+}
+table{
+    box-shadow: 5px 5px 5px #c0c0c0;
+    height: 100%;
+}
+td{
+    border: 1px solid #dddddd;
+    padding: 10px 0px 10px 0px;
+}
+th{
+    background-color: #800000;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+tr:nth-child(even){
+    background: #e6e6e6;
+}
+.col-sm-2{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    height: auto;
+    margin-top: 0px;
+}
+hr{
+    border-top: 1px solid #404040;
+    display: block;
+    height: 3px;
+    margin: 1em 0;
+    padding: 0;
+}
+@media screen and (max-width : 767px){
+    .sidenav{
+        height: auto;
+        padding: 15px;
+    }
+}
+/***********************************FOOTER**********************************/
+footer{
+    background-color: #800000;
+    clear: both;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 200px;
+}
+footer p{
+    color: #ffffff;
+    opacity: 0.8;
+    text-align: center;
+}

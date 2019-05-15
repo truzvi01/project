@@ -1,0 +1,1081 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/***********************************HOME PAGE**********************************/
+.navbar{
+    border: none;
+    background-color: #003d99;
+}
+@media all and (max-width : 767px){
+    .navbar{
+        position: absolute;
+    }
+}
+/**Commonlinks**/
+#commonlinks a{
+    background-color: #000a1a;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+}
+#commonlinks a:hover,
+a:focus{
+    background-color: #808080;
+    border-radius: 50px;
+    transition: all 0.45s;
+    color: #000a1a;
+}
+/*******************************************/
+/**Header**/
+h1.nhs-header{
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+}
+@media all and (max-width : 2854px){
+    h1.nhs-header{
+        font-size: 70px;
+    }
+}
+@media all and (max-width : 2585px){
+    h1.nhs-header{
+        font-size: 40px;
+    }
+}
+@media all and (max-width : 1200px){
+    h1.nhs-header{
+        font-size: 35px;
+    }
+}
+@media all and (max-width : 1024px){
+    h1.nhs-header{
+        font-size: 30px;
+    }
+}
+@media all and (max-width : 800px){
+    h1.nhs-header{
+        font-size: 25px;
+    }
+}
+@media all and (max-width : 767px){
+    h1.nhs-header{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+}
+@media all and (max-width : 702px){
+    h1.nhs-header{
+        font-size: 20px;
+    }
+}
+@media all and (max-width : 500px){
+    h1.nhs-header{
+        font-size: 15px;
+    }
+}
+@media all and (max-width : 450px){
+    h1.nhs-header{
+        font-size: 14px;
+    }
+}
+@media all and (max-width : 375px){
+    h1.nhs-header{
+        font-size: 12px;
+    }
+}
+/*******************************************/
+/**NHS-Home Logo and NHS icons**/
+.navbar img{
+    border-radius: 20px;
+    width: 200px;
+}
+@media all and (max-width : 2854px){
+    .navbar img{
+        float: right;
+        height: 80px;
+        margin-right: -1000px;
+        width: 200px;
+    }
+}
+@media all and (max-width : 2500px){
+    .navbar img{
+        margin-right: -650px;
+    }
+}
+@media all and (max-width : 1500px){
+    .navbar img{
+        margin-right: -350px;
+    }
+}
+@media all and (max-width : 1200px){
+    .navbar img{
+        height: 60px;
+        margin-right: -250px;
+        width: 180px;
+
+    }
+}
+@media all and (max-width : 1024px){
+    .navbar img{
+        margin-right: -200px;
+        width: 160px;
+    }
+}
+@media all and (max-width : 800px){
+    .navbar img{
+        height: 40px;
+        margin: 20px -150px 0 0;
+        width: 120px;
+    }
+}
+@media all and (max-width : 767px){
+    .navbar img{
+        height: 40px;
+        margin: -40px 150px 0 0;
+        width: 100px;
+    }
+
+}
+@media all and (max-width : 620px){
+    .navbar img{
+        height: 40px;
+        margin-right: 80px;
+        width: 100px;
+    }
+
+}
+@media all and (max-width : 560px){
+    .navbar img{
+        height: 30px;
+        margin-right: 50px;
+        width: 80px;
+    }
+}
+@media all and (max-width : 502px){
+    .navbar img{
+        margin: -30px 50px 0 0;
+        width: 60px;
+    }
+}
+@media all and (max-width : 345px){
+    .navbar img{
+        width: 50px;
+    }
+}
+@media all and (max-width : 330px){
+    .navbar img{
+        display: none;
+    }
+}
+/*******************************************/
+/**Navigation-Icons**/
+#myNavbar ul{
+    display: inline;
+    list-style: none;
+}
+@media all and (max-width : 2854px){
+    #myNavbar ul{
+        margin: 150px 0 0 -1200px;
+    }
+}
+@media all and (max-width : 2585px){
+    #myNavbar ul{
+        margin: 100px 0 0 -650px;
+    }
+}
+@media all and (max-width : 1200px){
+    #myNavbar ul{
+        margin: 80px 0 0 -600px;
+    }
+}
+@media all and (max-width : 1024px){
+    #myNavbar ul{
+        margin-left: -500px;
+    }
+}
+@media all and (max-width : 800px){
+    #myNavbar ul{
+        margin-left: -430px;
+    }
+}
+/*******************************************/
+@media all and (max-width : 2854px){
+    #myNavbar ul li{
+        margin-right: 40px;
+        padding: 0 10px 20px 0;
+    }
+}
+/*******************************************/
+#myNavbar a{
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #003d99;
+    font-size: 14px;
+    opacity: 0.8;
+}
+@media all and (max-width : 800px){
+    #myNavbar a{
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+#myNavbar a:hover{
+    border-radius: 50px;
+    opacity: 0.4;
+    transition: all 0.45s;
+}
+/*******************************************/
+/**Homepage-Welcome-Second-Header**/
+
+.jumbotron{
+    background-color: #eaebee;
+    box-shadow: 10px 10px 5px silver;
+    margin-top: 100px;
+}
+.jumbotron h2{
+    color: #000000;
+    font-size: 40px;
+    opacity: 0.6;
+    text-shadow: 15px 15px 50px;
+}
+@media all and (max-width : 1100px){
+    .jumbotron h2{
+        font-size: 30px;
+    }
+}
+@media all and (max-width : 800px){
+    .jumbotron h2{
+        font-size: 25px;
+    }
+}
+@media all and (max-width : 670px){
+    .jumbotron h2{
+        font-size: 20px;
+    }
+}
+@media all and (max-width : 533px){
+    .jumbotron h2{
+        font-size: 18px;
+    }
+}
+@media all and (max-width : 470px){
+    .jumbotron h2{
+        font-size: 15px;
+    }
+}
+@media all and (max-width : 400px){
+    .jumbotron h2{
+        font-size: 12px;
+    }
+}
+/**************Homepage-Welcome-Image***********************/
+#homepage-image img{
+    box-shadow: 15px 15px 25px #c0c0c0;
+    margin-top: 170px;
+    width: 100%;
+}
+
+@media all and (max-width : 767px){
+    #homepage-image img{
+        box-shadow: 5px 5px 5px #c0c0c0;
+        margin-top: 220px;
+    }
+}
+/*******************************************/
+/**GP image one**/
+#gp-image img{
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 5px #c0c0c0;
+    float: left;
+}
+@media all and (max-width : 2854px){
+    #gp-image img{
+        margin: 90px;
+        width: 1000px;
+    }
+}
+@media all and (max-width : 2283px){
+    #gp-image img{
+        width: 800px;
+    }
+}
+@media all and (max-width : 1869px){
+    #gp-image img{
+        margin-left: 0px;
+        width: 500px;
+    }
+}
+@media all and (max-width : 1179px){
+    #gp-image img{
+        width: 350px;
+    }
+}
+@media all and (max-width : 969px){
+    #gp-image img{
+        display: none;
+    }
+}
+/*******************************************/
+#gp-image-two img{
+    border: 1px solid transparent;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 5px 5px 5px #c0c0c0;
+    float: right;
+    margin: 80px 30px 0 40px;
+    width: 500px;
+}
+@media all and (max-width : 2854px){
+    #gp-image-two img{
+        margin: 90px 0 0 90px;
+        width: 1000px;
+    }
+}
+@media all and (max-width : 2283px){
+    #gp-image-two img{
+        width: 800px;
+    }
+}
+@media all and (max-width : 1869px){
+    #gp-image-two img{
+        width: 500px;
+    }
+}
+@media all and (max-width : 1179px){
+    #gp-image-two img{
+        width: 350px;
+    }
+}
+@media all and (max-width : 969px){
+    #gp-image-two img{
+        border-radius: 0;
+        width: 100%;
+    }
+}
+/*******************************************/
+/**First Content**/
+.content{
+    background-color: #fafbfb;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 15px 15px 5px #c0c0c0;
+    float: left;
+    min-height: 150px;
+    width: 500px;
+}
+@media all and (max-width : 2854px){
+    .content{
+        margin: 750px 0px 75px -1090px;
+        width: 1000px;
+    }
+}
+@media all and (max-width : 2283px){
+    .content{
+        margin: 600px 0px 75px -900px;
+        width: 800px;
+    }
+}
+@media all and (max-width : 1869px){
+    .content{
+        margin: 350px 0px 75px -590px;
+        width: 500px;
+    }
+}
+@media all and (max-width : 1179px){
+    .content{
+        margin: 300px 0px 75px -440px;
+        width: 350px;
+    }
+}
+@media all and (max-width : 969px){
+    .content{
+        margin: 50px 0 0 0;
+        width: 100%;
+    }
+}
+.content h3,
+h4{
+    background-color: #003d99;
+    border-radius: 5px;
+    box-shadow: 15px 15px 5px #c0c0c0;
+    color: #ffffff;
+    margin: 0px;
+    padding: 35px;
+    text-align: center;
+}
+@media all and (max-width : 1069px){
+    .content h3{
+        font-size: 14px;
+    }
+}
+.content h4{
+    color: #ffffff;
+}
+.content p{
+    margin: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+/*******************************************/
+/****Content Two****/
+#content-two{
+    background-color: #fafbfb;
+    box-shadow: 15px 15px 5px #c0c0c0;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    float: right;
+    min-height: 150px;
+    width: 500px;
+}
+@media all and (max-width : 2854px){
+    #content-two{
+        width: 1000px;
+    }
+}
+@media all and (max-width : 2283px){
+    #content-two{
+        width: 800px;
+    }
+}
+@media all and (max-width : 1869px){
+    #content-two{
+        margin: 300px -590px 0 0;
+        width: 500px;
+    }
+}
+@media all and (max-width : 1179px){
+    #content-two{
+        margin: 0px;
+        width: 350px;
+    }
+}
+@media all and (max-width : 969px){
+    #content-two{
+        margin: 50px 0px 100px 0px;
+        width: 100%;
+    }
+}
+#content-two h3,
+h4{
+    background-color: #003d99;
+    border-radius: 5px;
+    box-shadow: 15px 15px 5px #c0c0c0;
+    color: #ffffff;
+    margin: 0px;
+    padding: 35px;
+    text-align: center;
+}
+@media all and (max-width : 1069px){
+    #content-two h3{
+        font-size: 13.5px;
+    }
+}
+#content-two h4{
+    color: #ffffff;
+}
+#content-two p{
+    margin: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+/*********************************** END OF HOME PAGE*******************************************************************/
+/***********************************REGISTRATION PAGE********************************************************************/
+/**Reg- Welcome-Header**/
+.header-two h2{
+    color: #003d99;
+    font-size: 40px;
+    margin-top: 200px;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 15px 10px 10px #c0c0c0;
+}
+@media all and (max-width : 1100px){
+    .header-two h2{
+        font-size: 30px;
+    }
+}
+@media all and (max-width : 800px){
+    .header-two h2{
+        font-size: 25px;
+    }
+}
+@media all and (max-width : 767px){
+    .header-two h2{
+        margin-top: 220px;
+    }
+}
+@media all and (max-width : 500px){
+    .header-two h2{
+        font-size: 20px;
+    }
+}
+@media all and (max-width : 400px){
+    .header-two h2{
+        font-size: 16px;
+    }
+}
+/***************************************************************/
+/**Registration Information**/
+#registration-info{
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 10px 15px #c0c0c0;
+    float: right;
+    margin: 150px 20px;
+    max-width: 35%;
+}
+@media all and (max-width : 900px){
+    #registration-info{
+        margin-top: 80px;
+        max-width: 100%;
+    }
+}
+#registration-info h3,
+h4{
+    background-color: #003d99;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+#registration-info p{
+    margin: 30px 20px 30px 10px;
+    text-align: justify;
+}
+/*************************************************************/
+/******Registration Form Header and Logo**********/
+#registration-form{
+    background-color: #f2f2f2;
+    box-shadow: 20px 20px 5px #d3d3d3;
+    border: 1px solid #d3d3d3;
+    margin: 100px 20px 100px;
+    max-width: 55%;
+    padding: 20px;
+}
+@media all and (max-width : 900px){
+    #registration-form{
+        float: left;
+        margin-top: 50px;
+        max-width: 100%;
+    }
+}
+/*****************************************************************/
+#registration-form h5{
+    background-color: #003d99;
+    box-shadow: 10px 10px 15px #c0c0c0;
+    color: #e6e6e6;
+    font-size: 25px;
+    font-weight: 100;
+    margin: -20px;
+    padding: 35px;
+    text-align: center;
+}
+@media all and (max-width : 1072px){
+    #registration-form h5{
+        font-size: 15px;
+    }
+}
+@media all and (max-width : 433px){
+    #registration-form h5{
+        font-size: 12px;
+    }
+}
+@media all and (max-width : 330px){
+    #registration-form h5{
+        font-size: 10px;
+        text-align: left;
+    }
+}
+/*****************************************************************/
+#registration-form img{
+    border-radius: 20px;
+    float: right;
+    height: 50px;
+    margin: 0px;
+    width: 140px;
+}
+@media all and (max-width : 1072px){
+    #registration-form img{
+        height: 40px;
+        width: 100px;
+    }
+}
+@media all and (max-width : 433px){
+    #registration-form img{
+        height: 30px;
+        width: 50px;
+    }
+}
+@media all and (max-width : 320px){
+    #registration-form img{
+        margin-left: 20px;
+        height: 20px;
+        width: 30px;
+    }
+}
+@media all and (max-width : 266px){
+    #registration-form img{
+        display: none
+    }
+}
+/*****************************************************************/
+#reg-requirements p{
+    padding-top: 50px;
+    text-align: center;
+}
+#registration-form ol{
+    text-align: center;
+    list-style-type: none;
+}
+#registration-form li{
+    text-align: center;
+}
+#registration-form h6{
+    color: #005eb8;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 30px 0 0 0;
+}
+#registration-form p{
+    font-weight: bold;
+}
+
+
+/*****************************************************************/
+/********* Styling form ******/
+#registration-form select{
+    height: 30px;
+    width: 20%;
+}
+#telphone,
+#email{
+    margin: 10px;
+}
+#registration-form label{
+    margin: 0px;
+}
+form p{
+    color: #800000;
+}
+#registration-form input[type = text],
+input[type = password]{
+    display: inline-block;
+    margin: 8px 0px;
+    padding: 15px 20px;
+    width: 100%;
+}
+#registration-form input[type = tel],
+input[type = email]{
+    margin: 8px 0px;
+    padding: 8px;
+}
+#registration-form input[type = radio]{
+    margin: 2px;
+}
+#registration-form input[type = submit]{
+    background-color: #003d99;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 30px 0 0;
+    padding: 14px 40px;
+    width: 100%;
+}
+#registration-form input[type = submit]:hover{
+    background-color: #999966;
+}
+/* The message box is shown when the user clicks on the password field */
+#message{
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    margin-top: 10px;
+}
+
+#message p{
+    font-size: 12px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid{
+    color: green;
+}
+
+.valid:before{
+    position: relative;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid{
+    color: red;
+}
+
+.invalid:before{
+    position: relative;
+    content: "✖";
+}
+/***********************************LOGIN PAGE************************************************/
+#login-wrapper{
+    background-color: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    border-radius: 40px;
+    box-shadow: 20px 20px 15px #c0c0c0;
+    display: block;
+    height: auto;
+    margin: 100px auto 50px auto;
+    width: 80%;
+}
+@media all and (max-width : 900px){
+    #login-wrapper{
+        background-color: #ffffff;
+        border-radius: 0;
+        box-shadow: 10px 10px 5px #c0c0c0;
+        margin-top: 100px;
+        width: 100%;
+    }
+}
+
+/*****************************************************************/
+#login-wrapper h3{
+    background: #003d99;
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+@media all and (max-width : 2854px){
+    #login-wrapper h3{
+        font-size: 50px;
+    }
+}
+@media all and (max-width : 1440px){
+    #login-wrapper h3{
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width : 768px){
+    #login-wrapper h3{
+        font-size: 18px;
+    }
+}
+
+/*****************************************************************/
+#nhs-logo img{
+    border-radius: 20px;
+    float: right;
+    height: 50px;
+    margin: -10px;
+    width: 140px;
+}
+@media all and (max-width : 768px){
+    #nhs-logo img{
+        height: 40px;
+        width: 120px;
+    }
+}
+@media all and (max-width : 300px){
+    #nhs-logo img{
+        display: none;
+    }
+}
+
+/*****************************************************************/
+/**Login**/
+#login{
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 0px 0px 40px 40px;
+    display: block;
+    height: auto;
+    margin: 150px auto 50px auto;
+    width: 50%;
+}
+@media all and (max-width : 1024px){
+    #login{
+        border: none;
+        width: 100%;
+    }
+}
+/*****************************************************************/
+#login img{
+    border-radius: 60%;
+    box-shadow: 5px 5px 1px #c0c0c0;
+    display: block;
+    margin: -80px auto auto auto;
+    max-width: 40%;
+}
+@media all and (max-width : 1024px){
+    #login img{
+        width: 30%;
+    }
+}
+form .glyphicon{
+    color: #003d99;
+    font-size: 16px;
+}
+/*****************************************************************/
+#login p{
+    padding: 50px 20px 20px 20px;
+}
+/*****************************************************************/
+/**Login form**/
+#login-form{
+    padding: 5px 20px 30px 20px;
+}
+#login-form input[type = text],
+input[type = password]{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+}
+#login-form button{
+    background-color: #003d99;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 30px 0;
+    padding: 14px 20px;
+    width: 100%;
+}
+#login-form button:hover{
+    background-color: #999966;
+}
+span.psw,
+.username{
+    float: right;
+    padding: 20px;
+}
+@media all and (max-width : 360px){
+    span.psw,
+    .username{
+        float: left;
+        padding: 0 20px 0 0;
+    }
+}
+#login-form label{
+    color: #003d99;
+    margin: -15px 0 0 0;
+}
+/***********************************Errors and Success*********************/
+.error{
+    background-color: #FFBABA;
+    border: 1px solid #b30000;
+    border-radius: 8px;
+    color: #D8000C;
+    font-size: 15px;
+    margin: 100px auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+.success-msg{
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    border-radius: 8px;
+    color: #3c763d;
+    margin: 300px auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+.success-msg p,
+.error-msg{
+    font-size: 20px;
+}
+.error-msg{
+    background-color: #FFBABA;
+    border: 1px solid #b30000;
+    border-radius: 8px;
+    color: #D8000C;
+    margin: 300px auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+/***********************************END OF LOGIN PAGE*********************/
+/***********************************CONTACT US PAGE*********************/
+/****** Section for Contact***/
+#section{
+    padding-top: 100px;
+    text-align: center;
+}
+#section p{
+    font-size: 15px;
+}
+@media all and (max-width : 425px){
+    #section p{
+        font-size: 10px;
+    }
+}
+@media all and (max-width : 320px){
+    #section p{
+        font-size: 8px;
+    }
+}
+/*****************************************************************/
+/**Contact Information**/
+#contact-info{
+    line-height: 40px;
+    text-align: center;
+}
+@media all and (max-width : 425px){
+    #contact-info{
+        line-height: 50px;
+    }
+}
+/*****************************************************************/
+#contact-info p{
+    font-size: 12px;
+    display: block;
+    margin: 50px auto auto auto;
+}
+#contact-info a{
+    background-color: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    box-shadow: 0 9px #c0c0c0;
+    font-size: 12px;
+    outline: none;
+    padding: 30px;
+    text-align: center;
+}
+#contact-info a:hover{
+    background-color: #999966;
+    box-shadow: 0 5px #666;
+    text-decoration: none;
+    transform: translateY(5px);
+}
+/*****************************************************************/
+/****** Contact-Form-Wrapper***/
+#contact-wrapper{
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    box-shadow: 20px 20px 15px #c0c0c0;
+    display: block;
+    margin: 100px auto 50px auto;
+    max-width: 60%;
+}
+@media all and (max-width : 900px){
+    #contact-wrapper{
+        max-width: 100%;
+    }
+}
+/*****************************************************************/
+#contact-wrapper h2{
+    background: #003d99;
+    border-radius: 5px;
+    box-shadow: 20px 20px 15px #c0c0c0;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0px 0;
+    padding: 20px;
+    text-align: center;
+}
+@media all and (max-width : 487px){
+    #contact-wrapper h2{
+        font-size: 18px;
+    }
+}
+@media all and (max-width : 470px){
+    #contact-wrapper h2{
+        font-size: 15px;
+    }
+}
+/*****************************************************************/
+#contact-wrapper form{
+    padding: 20px;
+}
+#contact-wrapper input[type = text],
+input[type = email]{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 12px 20px;
+    width: 100%;
+}
+#contact-wrapper input[type = submit]{
+    background-color: #003d99;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 30px 0px 10px 0px;
+    padding: 14px 20px;
+    width: 100%;
+}
+#contact-wrapper input[type = submit]:hover{
+    background: #999966;
+}
+#contact-wrapper label{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px 0 0 0;
+}
+#sub{
+    background: #e6e6e6;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 45px;
+}
+/***********************************FOOTER**********************************/
+footer{
+    background-color: #e8edee;
+    clear: both;
+    margin-top: 200px;
+    padding: 20px;
+}
+footer p{
+    color: #000000;
+    opacity: 0.8;
+    text-align: center;
+}
+/*****************************************************************/
+.fa{
+
+    border-radius: 50%;
+    margin: 5px 2px;
+    padding: 15px;
+}
+@media all and (max-width : 425px){
+    .fa{
+        padding: 5px;
+    }
+}
+/*****************************************************************/
+.fa-twitter{
+    background: #55acee;
+    color: #ffffff;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: #ffffff;
+}
+
+.fa-youtube{
+    background: #bb0000;
+    color: #ffffff;
+}
+.fa-instagram{
+    background: #125688;
+    color: #ffffff;
+}
+.fa-flickr{
+    background: #f40083;
+    color: #ffffff;
+}
+.fa-rss{
+    background: #ff6600;
+    color: #ffffff;
+}
